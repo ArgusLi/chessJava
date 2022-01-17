@@ -53,21 +53,5 @@ public class Chessboard {
             }
             System.out.println();
         }
-
-        /*
-        for(int y = ySize - 1; y >= 0; y--) {
-            for (int x = 0; x < xSize; x++) {
-                Chesspiece selected = board[x][y];
-                if(selected != null){
-                    System.out.print(selected.getDisplayC());
-                } else{
-                    System.out.print(spacing);
-                }
-                System.out.print(spacing);
-            }
-            System.out.println();
-        }
-
-         */
     }
 }
