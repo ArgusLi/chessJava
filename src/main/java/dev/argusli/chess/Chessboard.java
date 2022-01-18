@@ -20,10 +20,6 @@ public class Chessboard {
         }
     }
 
-    public Chesspiece[][] getBoard(){
-        return board;
-    }
-
     public void displayBoard(){
 
         for(int y = ySize + 1; y >= 0; y--){
